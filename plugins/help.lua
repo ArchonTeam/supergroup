@@ -48,8 +48,20 @@ function run(msg, matches)
 !setdes (text)
 تغیر دسکریپشن گروه به (text)
 
-!kick @username (by reply)
-اخراج فردی با آیدی @username (حتی با ریپلای)
+!kick @username (by reply) 
+اخراج کردن موقتی فرد @username (حتی با ریپلی)
+
+!ban @usernamr (by reply)
+اخراج کامل فرد از گروه
+
+!unban @username
+آزاد کردن فرد اخراج شده
+
+!banlist
+لیست افراد هایی که کامل اخراج شدند
+
+!info
+دریافت کامل اطاعات خود
 
 !add @username (by reply)
 ادد کردن فردی با آیدی @username به گروه (حتی با ریپلای)
