@@ -57,6 +57,14 @@ function run(msg, matches)
 !unban @username
 آزاد کردن فرد اخراج شده
 
+!lockword ......
+قفل کردن و ممنوع کردن کلمات
+
+!unlockword ......
+آزاد کردن کلمات ممنوع شده
+
+!locklist
+لیست کلمات قفل شده
 !banlist
 لیست افراد هایی که کامل اخراج شدند
 
