@@ -128,7 +128,7 @@ local function run(msg, matches)
         else
             return 'Error !'
         end
-            elseif matches[1] == 'rmv' then
+            elseif matches[1] == 'kick' then
         if permissions(msg.from.id, msg.to.id, "kick") then
             local chat_id = msg.to.id
             local chat_type = msg.to.type
@@ -184,15 +184,15 @@ end
 end
 return {
     patterns = {
-        '^#(setname) (.*)$',
-        '^#(link)$',
-        '^#(newlink)$',
-        '^#(tosuper)$',
-        '^#(setdes) (.*)$',
-        "^#(rmv)$",
-        "^#(rmv) (.*)$",
-        "^#(add)$",
-        "^#(add) (.*)$",
+        '^!(setname) (.*)$',
+        '^!(link)$',
+        '^!(newlink)$',
+        '^!(tosuper)$',
+        '^!(setdes) (.*)$',
+        "^!(kick)$",
+        "^!(kick) (.*)$",
+        "^!(add)$",
+        "^!(add) (.*)$",
     },
     run = run
 }
